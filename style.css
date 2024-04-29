@@ -9,17 +9,12 @@ body {
     padding-top: 50px;
 }
 
-.container-fluid1 {
+#imageGallery {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#imageGallery {
-    align-items: center;
-    justify-content: center;
-    padding-left: 90px;
-    padding-top: 30px;
-}
 
 a {
     text-decoration: none;
@@ -35,7 +30,7 @@ a {
   .previous {
     background-color: #CADBC8;
     color: #A1A499;
-    float: left;
+    float: right;
   }
 
   .do {
@@ -45,18 +40,10 @@ a {
   .next {
     background-color: #CADBC8;
     color: #A1A499;
-    float: right;
+    float: left;
   }
 
   .round {
-    border-radius: 50%;
-  }
-
-  .test {
-    padding-left: 20%;
-  }
-
-  .test1 {
-    padding-right: 20%;
+    border-radius:  50%;
   }
 
